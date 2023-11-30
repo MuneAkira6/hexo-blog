@@ -1,15 +1,16 @@
 nav:
-  home: Home
-  about: About
-  articles: Writing
-  tag: Tag
-  category: Category
+  home: トップ
+  about: プロフィール
+  articles: 記事一覧
+  tag: タグ
+category: 
+  category: カテゴリ
   projects: Projects
-  search: Search
+  search: 探す
 
 icons:
-  menu: Menu
-  top: Top
+  menu: メニュー
+  top: トップ
 
 footer:
   copyright: Copyright
@@ -25,10 +26,10 @@ index:
 
 post:
   desktop:
-    previous: Previous post
-    next: Next post
+    previous: 前へ
+    next: 次へ
     back_to_top: Back to top
-    share: Share post
+    share: シェア
   mobile:
     menu: Menu
     toc: TOC
@@ -36,8 +37,8 @@ post:
     share: Share
 
 search:
-  search: Search...
-  no_results: No results found.
+  search: 検索
+  no_results: 結果が見つかりません。
 
 tag_cloud:
   zero: No tags

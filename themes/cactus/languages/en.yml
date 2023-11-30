@@ -3,9 +3,9 @@ nav:
   about: About
   articles: Writing
   tag: Tag
-  category: Category
+  category: カテゴリ
   projects: Projects
-  search: Search
+  search: 探す
 
 icons:
   menu: Menu
