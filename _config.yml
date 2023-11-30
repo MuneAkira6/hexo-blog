@@ -3,13 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 献上自己
+description: '所以弟兄們，我憑著神的恩慈勸你們，要把身體獻上，作聖潔而蒙神悅納的活祭；這是你們理所當然的事奉。'
 keywords:
 author: Mune Akira
 language: ja
-timezone: ''
+timezone: 'Japan'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
