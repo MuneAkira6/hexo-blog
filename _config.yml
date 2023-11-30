@@ -8,7 +8,7 @@ subtitle: ''
 description: ''
 keywords:
 author: Mune Akira
-language: en
+language: ja
 timezone: ''
 
 # URL
@@ -101,9 +101,13 @@ theme: cactus
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git # 类型填git
+  repo: https://github.com/MuneAkira6/MuneAkira6.github.io.git # 你的Github仓库地址
+  branch: main # 分支名称。默认填写 master 如果您使用的是 GitHub ，程序会尝试自动检测。
+  message: # 提交信息可以自定义，不填的则默认为提交时间
 
-# cactus
+tags_overview: true
+
 # 修改主题
 theme_config:
   colorscheme: white
