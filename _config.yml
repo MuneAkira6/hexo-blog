@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Henceforth
-description: '🌱　🍑　🐈'
+title: Henceforth 🌱　🍑　🐈
+description: "I wrote these things in my dreams."
 keywords: ブログ
 author: Mune Akira
-language: ja
-timezone: 'Japan'
+language: en
+timezone: Asia/Shanghai # Japan
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
