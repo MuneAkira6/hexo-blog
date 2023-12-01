@@ -32,7 +32,7 @@ $(document).ready(function() {
     /**
      * Display the menu on hi-res laptops and desktops.
      */
-    if ($(document).width() >= 1440) {
+    if ($(document).width() >= 1080) { 
       menu.show();
       menuIcon.addClass("active");
     }
@@ -62,7 +62,7 @@ $(document).ready(function() {
         if (!nav.is(":visible") && topDistance < 50) {
           nav.show();
         } else if (nav.is(":visible") && topDistance > 100) {
-          nav.hide();
+          // nav.hide();
         }
 
         // on tablet, hide the navigation icon as well and show a "scroll to top
