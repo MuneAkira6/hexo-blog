@@ -13,7 +13,7 @@ timezone: Asia/Shanghai # Japan
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://muneakira6.github.io/
-permalink: :year/:month/:day/:title/
+permalink: :title.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -36,7 +36,7 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ''
+  exclude: ""
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -46,20 +46,20 @@ syntax_highlighter: highlight.js
 highlight:
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: ""
   wrap: true
   hljs: false
 prismjs:
   preprocess: true
   line_number: true
-  tab_replace: ''
+  tab_replace: ""
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
 
@@ -79,7 +79,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+updated_option: "mtime"
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -100,10 +100,11 @@ theme: cactus
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git # 类型填git
-  repo: https://github.com/MuneAkira6/MuneAkira6.github.io.git # 你的Github仓库地址
-  branch: main # 分支名称。默认填写 master 如果您使用的是 GitHub ，程序会尝试自动检测。
-  message: # 提交信息可以自定义，不填的则默认为提交时间
+  - type: git # 类型填git
+    repo: https://github.com/MuneAkira6/MuneAkira6.github.io.git # 你的Github仓库地址
+    branch: main # 分支名称。默认填写 master 如果您使用的是 GitHub ，程序会尝试自动检测。
+    message: # 提交信息可以自定义，不填的则默认为提交时间
+  - type: cjh_google_url_submitter
 
 tags_overview: true
 
@@ -114,3 +115,26 @@ theme_config:
 # Show all posts on homepage
 posts_overview:
   show_all_posts: true
+
+hexo_submit_urls_to_search_engine:
+  submit_condition: count #链接被提交的条件，可选值：count | period 现仅支持count
+  count: 10 # 提交最新的10个链接
+  period: 900 # 提交修改时间在 900 秒内的链接
+  google: 1 # 是否向Google提交，可选值：1 | 0（0：否；1：是）
+  bing: 0 # 是否向bing提交，可选值：1 | 0（0：否；1：是）
+  baidu: 0 # 是否向baidu提交，可选值：1 | 0（0：否；1：是）
+  txt_path: submit_urls.txt ## 文本文档名， 需要推送的链接会保存在此文本文档里
+  google_host: https://muneakira6.github.io/ ## 在google站长平台中注册的域名
+  google_key_file: Project.json #存放google key的json文件，放于网站根目录（与hexo _config.yml文件位置相同），请不要把json文件内容直接发布在公众仓库里!
+  google_proxy: 0 # 向谷歌提交网址所使用的系统 http 代理，填 0 不使用
+  replace: 0 # 是否替换链接中的部分字符串，可选值：1 | 0（0：否；1：是）
+
+sitemap:
+  path:
+    - sitemap.xml
+    - sitemap.txt
+  template: ./sitemap_template.xml
+  template_txt: ./sitemap_template.txt
+  rel: false
+  tags: true
+  categories: true
