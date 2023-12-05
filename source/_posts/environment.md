@@ -1,6 +1,5 @@
 ---
 title: 环境问题汇总
-date: 2023-12-04 14:21:56
 tags:
   - Pseudo-tech
 categories:
