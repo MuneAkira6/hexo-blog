@@ -1,6 +1,6 @@
 ---
 title: 语法拾贝 (Reloaded)
-date: 2023-12-04 16:24:56
+date: 2023-12-05 16:24:56
 tags:
   - Grammer
 categories:
@@ -44,6 +44,8 @@ arr.flat(Infinity);
 
 ### 2. 非空断言 !
 
+**使用场景：ref**
+
 ### 3. 键值获取 keyof
 
 ```javascript
@@ -54,12 +56,22 @@ type Person = {
 type PersonKey = keyof Person;  // 'name' | 'age'
 ```
 
-**使用场景：任意定义一个 key 变量去对象里取 value 时，通常会不允许取。故需要手动指定。**
-**那如果无法获取显式目标对象的类型时？keyof typeof**
+**使用场景：遍历一个对象的所有 key 时（拿不到类型时可以用 keyof typeof）**
 
 ```javascript
-type PersonKey = keyof typeof me;   // 'name' | 'age'
+(Object.keys(params) as (keyof feedbackParams)[]).forEach((key) => {
+  formData.append(key, params[key]);
+});
 ```
+
+### 4. 联合类型 ｜ 交叉类型 &
+
+**不是数学上的交集并集！**
+
+& 交叉类型：产生的新集合包含原各集合的所有属性（语义上的“且”）
+| 联合类型：产生的新集合是一个 `select`，可以是 A，也可以是 B，但不能同时拥有 A 和 B （语义上的“或”）
+
+**使用场景：继承**
 
 **二、泛型工具**
 
@@ -89,7 +101,7 @@ type PersonKey = keyof typeof me;   // 'name' | 'age'
 
 ### 1. 声明函数式组件
 
-这种方式会显示声明 children
+这种方式会在 props 里显式声明 children
 
 ```javascript
 const App: React.FC<AppProps> = ({ message, children }) => (
@@ -102,7 +114,12 @@ const App: React.FC<AppProps> = ({ message, children }) => (
 
 ### 2. 使用 typeof 减少冗余的 props 类型导出
 
-### 3. 事件
+```javascript
+import { Recent } from '@mercury/component'
+type RecentProps = React.ComponentProps<typeof Recent>
+```
+
+### 3. React 事件类型定义
 
 ```javascript
 type Props = {
@@ -120,9 +137,7 @@ type Props = {
 
 ```javascript
 type ChangeEventHandler<T = Element> = EventHandler<React.ChangeEvent<T>>
-
 type KeyboardEventHandler<T = Element> = EventHandler<React.KeyboardEvent<T>>
-
 type MouseEventHandler<T = Element> = EventHandler<React.MouseEvent<T>>
 ```
 
@@ -148,4 +163,72 @@ const condition = [1, 2, 3, 4];
 if (condition.includes(type)) {
   //...
 }
+```
+
+### 类型断言/类型守卫
+
+1. 类型断言
+
+```
+值 as 类型
+<类型>值
+```
+
+- 联合类型→单一类型
+- 父类→子类
+- any→类型
+
+2. 类型守卫：通过 if 自动推断类型。
+
+- 类型判断：`typeof 基本类型`
+- 实例判断：`instanceof 类（非接口）`
+- 属性判断：`字段 in 接口（所实现的实例）` `in` 其实是 js 自带语法，应用在实例上
+- 字面量相等判断：`==`, `===`, `!=`, `!==`，适用于枚举
+
+```javascript
+const input1: string | number;
+if (typeof input1 == 'string') {
+  // 这里 input1 的类型「收紧」为 string
+}
+
+class A {};
+class B {};
+const input2: A | B;
+if (input2 instanceof A) {
+  // 这里 input2 的类型「收紧」为 A
+}
+
+interface Foo {
+  foo: string;
+}
+interface Bar {
+  bar: string;
+}
+const input3: Foo | Bar;
+if ('foo' in input3) {
+  // 这里 input3 的类型「收紧」为 Foo
+}
+```
+
+自定义类型守卫函数：代码随便写，返回值保证是`参数 is 类型`
+
+```javascript
+function isBatman (man: any): man is Batman {
+  // 写各种判断
+  return man && man.helmet && man.cloak;
+}
+```
+
+### 升降 CSS 优先级
+
+内联 > ID > 类/伪类/属性 > 元素/伪元素
+
+- （升优先级）自我重复，提高选择器的优先级：`.{className}.{className}`
+- （降优先级）属性选择器 `[id='{targetId}']` 替代 `#{targetId}` 以获得与 `.{className}` 相同的优先级
+- 优先级是权重相加制，更具体的选择器拥有更高的优先级
+
+### import type がウザい！
+
+```javascript
+import { type RecentProps } from '@mercury/component'
 ```
