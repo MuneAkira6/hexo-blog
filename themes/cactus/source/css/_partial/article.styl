@@ -62,6 +62,8 @@ article
       color: $color-quote
       quotes: "\201C" "\201D" "\2018" "\2019"
       font-weight: bold
+      display: flex
+      align-items: center
 
       p
         margin: 0
@@ -69,10 +71,9 @@ article
       &:before
         margin-right: .25em
         color: $color-quote
-        content: "\201C"
-        vertical-align: -.4em
-        font-size: 2em
-        line-height: .1em
+        content: "\2020" 
+        font-size: 1.5em
+        line-height: 1em
 
       footer
         margin: line-height 0
