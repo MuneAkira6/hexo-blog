@@ -1,5 +1,6 @@
 ---
 title: MyGO!!!!!愛を語る
+date: 2023-12-05 00:23:56
 tags:
   - Grammer
 categories:
