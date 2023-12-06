@@ -36,8 +36,8 @@ categories:
 | くる   | き     | こられる   | くれば   | こい          | こよう   | こられる   | こさせる   | きて      |
 
 - 私は彼に食べられる。
-- 私は彼に食べさせる。（I make him eat.）
-- 私は彼に食べさせられる。（I am made to eat by him.）
+- 私は彼にリンゴを食べさせる。（I make him eat apple.）
+- 私は彼にリンゴを食べさせられる。（I am made to eat apple by him.）
 
 ## ただ？たった？
 
