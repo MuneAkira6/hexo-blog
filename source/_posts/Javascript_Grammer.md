@@ -240,3 +240,24 @@ function isBatman (man: any): man is Batman {
 ```javascript
 import { type RecentProps } from '@mercury/component'
 ```
+
+### 表單提交對象數組
+
+```javascript
+// instanceList 是一个对象数组，表单提交时需要特殊处理
+const urlSearchParams = new URLSearchParams();
+Object.keys(data).forEach((key) => {
+  if (key === "instanceList") {
+    data[key].forEach((item, index) => {
+      Object.keys(item).forEach((itemKey) => {
+        if (item[itemKey] === null) {
+          item[itemKey] = "";
+        }
+        urlSearchParams.append(`${key}[${index}].${itemKey}`, item[itemKey]);
+      });
+    });
+  } else {
+    urlSearchParams.append(key, data[key]);
+  }
+});
+```
