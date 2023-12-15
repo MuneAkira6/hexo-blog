@@ -241,14 +241,20 @@ function isBatman (man: any): man is Batman {
 import { type RecentProps } from '@mercury/component'
 ```
 
-### 表單提交對象數組
+### 表單提交數組/對象數組
 
 ```javascript
-// instanceList 是一个对象数组，表单提交时需要特殊处理
+const params = {
+  clusterId: currentCluster.clusterId,
+  instanceIdList: [currentInstance.instanceId],
+  mavenInfoList: [currentPlugin],
+};
 const urlSearchParams = new URLSearchParams();
-Object.keys(data).forEach((key) => {
-  if (key === "instanceList") {
-    data[key].forEach((item, index) => {
+Object.keys(params).forEach((key) => {
+  // instanceIdList 和 mavenInfoList 都是数组，表单提交时需要特殊处理
+  if (key === "mavenInfoList") {
+    // 对象数组
+    params[key].forEach((item, index) => {
       Object.keys(item).forEach((itemKey) => {
         if (item[itemKey] === null) {
           item[itemKey] = "";
@@ -256,8 +262,54 @@ Object.keys(data).forEach((key) => {
         urlSearchParams.append(`${key}[${index}].${itemKey}`, item[itemKey]);
       });
     });
+  } else if (key === "instanceIdList") {
+    // 纯数组
+    params[key].forEach((item, index) => {
+      urlSearchParams.append(`${key}[${index}]`, item);
+    });
   } else {
-    urlSearchParams.append(key, data[key]);
+    urlSearchParams.append(key, params[key]);
   }
 });
+```
+
+### 巧用對象來去重
+
+1. 對象數組，根據某字段來去重
+
+```javascript
+const newNodes = [];
+// 将 newNodes 根据各项的customId去重
+const obj = {};
+newNodes.forEach((item) => {
+  obj[item.customId] = item;
+});
+const newNodes2 = [];
+Object.keys(obj).forEach((key) => {
+  newNodes2.push(obj[key]);
+});
+// 得到 newNodes2 已去重
+```
+
+2. 對象數組，獲取某字段的枚舉
+
+```javascript
+const clusterTypeEnum = {};
+const allCluster = [];
+allCluster.forEach((item) => {
+  clusterTypeEnum[item.parKey] = { text: item.parKey };
+});
+
+// 可以得到形如這種的枚舉
+{
+  "user-service": {
+    "text": "user-service"
+  },
+  "api-service": {
+    "text": "api-service"
+  },
+  "route": {
+    "text": "route"
+  }
+}
 ```
