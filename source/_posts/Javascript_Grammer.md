@@ -313,3 +313,26 @@ allCluster.forEach((item) => {
   }
 }
 ```
+
+### 复制到剪贴板
+
+```javascript
+export const copyToClipboard = async (text) => {
+  try {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(text);
+      message.success("复制成功");
+    } else {
+      const textarea = document.createElement("textarea");
+      textarea.value = text;
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand("copy");
+      message.success("复制成功");
+      document.body.removeChild(textarea);
+    }
+  } catch (err) {
+    message.error("复制失败", err);
+  }
+};
+```
