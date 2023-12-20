@@ -149,31 +149,7 @@ type KeyboardEventHandler<T = Element> = EventHandler<React.KeyboardEvent<T>>
 type MouseEventHandler<T = Element> = EventHandler<React.MouseEvent<T>>
 ```
 
-## Trick
-
-### if 条件太长时
-
-```javascript
-if(
-    type == 1 ||
-    type == 2 ||
-    type == 3 ||
-    type == 4 ||
-){
-   //...
-}
-```
-
-↓
-
-```javascript
-const condition = [1, 2, 3, 4];
-if (condition.includes(type)) {
-  //...
-}
-```
-
-### 类型断言/类型守卫
+### 4. 类型断言/类型守卫
 
 1. 类型断言
 
@@ -224,6 +200,30 @@ if ('foo' in input3) {
 function isBatman (man: any): man is Batman {
   // 写各种判断
   return man && man.helmet && man.cloak;
+}
+```
+
+## Trick
+
+### if 条件太长时
+
+```javascript
+if(
+    type == 1 ||
+    type == 2 ||
+    type == 3 ||
+    type == 4 ||
+){
+   //...
+}
+```
+
+↓
+
+```javascript
+const condition = [1, 2, 3, 4];
+if (condition.includes(type)) {
+  //...
 }
 ```
 
@@ -335,4 +335,28 @@ export const copyToClipboard = async (text) => {
     message.error("复制失败", err);
   }
 };
+```
+
+## git
+
+慎用 --hard！
+
+### 回溯到某次提交
+
+```
+git reset XXX
+```
+
+### 撤回上一次提交
+
+已经提交到远程了：
+
+```
+git revert HEAD
+```
+
+还没提交到远程，只是本地暂存了：
+
+```
+git reset XXX # XXX 为最近一次提交，不要用 --hard
 ```
