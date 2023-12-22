@@ -105,7 +105,7 @@ deploy:
     repo: https://github.com/MuneAkira6/MuneAkira6.github.io.git # 你的Github仓库地址
     branch: main # 分支名称。默认填写 master 如果您使用的是 GitHub ，程序会尝试自动检测。
     message: # 提交信息可以自定义，不填的则默认为提交时间
-  - type: cjh_google_url_submitter
+  # - type: cjh_google_url_submitter
 
 tags_overview: true
 
