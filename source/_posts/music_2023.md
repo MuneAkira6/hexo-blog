@@ -3,6 +3,7 @@ title: 2023 Best Album
 date: 2023-12-27 00:23:56
 tags:
   - 音楽
+  - 麻倉もも
 categories:
   - 2023 Best
 ---
