@@ -337,6 +337,22 @@ export const copyToClipboard = async (text) => {
 };
 ```
 
+### 下载
+
+使用axios
+
+```javascript
+axios.get("XXX", { responseType: "blob" }).then((res) => {
+  const blob = new Blob([res.data]);
+  const downloadADom = document.createElement("a");
+  downloadADom.href = URL.createObjectURL(blob);
+  downloadADom.download = fileName;
+  downloadADom.target = "_blank";
+  downloadADom.click();
+  URL.revokeObjectURL(downloadADom.href);
+});
+```
+
 ## git
 
 慎用 --hard！
