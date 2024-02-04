@@ -353,6 +353,21 @@ axios.get("XXX", { responseType: "blob" }).then((res) => {
 });
 ```
 
+### URL操作
+
+```javascript
+function addParamToUrl(url, paramName, paramValue) {
+  let myUrl = new URL(url);
+  myUrl.searchParams.set(paramName, paramValue);
+  return myUrl.href;
+}
+// 示例使用
+const productUrl = "http://example.com/product";
+const newUrl = addParamToUrl(productUrl, "tradeFrom", "3_1");
+
+console.log(newUrl);
+```
+
 ## git
 
 慎用 --hard！
