@@ -203,6 +203,46 @@ function isBatman (man: any): man is Batman {
 }
 ```
 
+### 5. useEffect的時機
+
+每次组件渲染后都执行：
+
+```javascript
+useEffect(() => {});
+```
+
+只会在组件首次渲染后执行一次：
+
+```javascript
+useEffect(() => {}, []);
+```
+
+### 6. 我就是不想單獨聲明類型！
+
+看例子：
+
+```typescript
+type BasicInfo = {
+  accountMembers: Array<{
+    micComId: string;
+    companyNameCn: string;
+    establishYears: string;
+    capitalAmount: string;
+    mainCategory: string;
+    mainCategoryYearAvgInvest: string;
+    portraitUrl: string;
+    smtCaseUrl: string;
+    advancedMember: boolean;
+  }>;
+};
+
+// 這是一個數組
+type accountMembers = BasicInfo["accountMembers"];
+
+// 從數組裡抽出類型
+type accountMember = BasicInfo["accountMembers"][number];
+```
+
 ## Trick
 
 ### if 条件太长时
@@ -352,6 +392,8 @@ axios.get("XXX", { responseType: "blob" }).then((res) => {
   URL.revokeObjectURL(downloadADom.href);
 });
 ```
+
+### 上傳
 
 ### URL操作
 
