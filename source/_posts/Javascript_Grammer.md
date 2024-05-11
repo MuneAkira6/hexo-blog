@@ -241,6 +241,9 @@ type accountMembers = BasicInfo["accountMembers"];
 
 // 從數組裡抽出類型
 type accountMember = BasicInfo["accountMembers"][number];
+
+// 获取函数的第一个参数的类型
+type UpdateArchiveDataType = Parameters<typeof updateArchive>[0];
 ```
 
 ## Trick
