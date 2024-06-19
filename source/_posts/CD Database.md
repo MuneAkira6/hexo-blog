@@ -354,8 +354,6 @@ categories:
 
 ### Speak Now
 
-### 1989
-
 ### Reputation
 
 ### Speak Now Osaka Live
@@ -376,7 +374,7 @@ categories:
 
 ### リスアニ
 
-### 棘アリ　初回、通常
+### 棘アリ　初回、通常（ガルクラ）
 
 ### Engage Kiss BD
 
@@ -408,7 +406,43 @@ categories:
 
 ### 僕やばOST
 
-### ぼざろ3連
+### ぼざろ3連（青春コンプレックス、アルバム、光の中へ）
+
+### Liella全系
+
+### The Rolling Girls
+
+### 京吹2TV 3劇場版（Disc別、同箱）
+
+========= 新箱子
+
+### 新世界より
+
+### fragile
+
+### Liellaのうた
+
+### 常夏
+
+### We Will!
+
+### 1989
+
+### Speak Now World Live
+
+### Midnight
+
+### 奇縁ロマンス
+
+### たまこラブストーリー
+
+### アイドル x 2（有一個CD忘封入）
+
+### 1989、Red、Fearless
+
+### Tribute
+
+### YOASOBI The Book 1 2 3
 
 ## 暫未放入，先統計
 
