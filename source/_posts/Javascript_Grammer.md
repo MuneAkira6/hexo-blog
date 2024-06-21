@@ -1,5 +1,5 @@
 ---
-title: 语法拾贝 (Reloaded)
+title: 语法拾贝 (JavaScript)
 date: 2023-12-04 00:23:56
 tags:
   - Grammer
