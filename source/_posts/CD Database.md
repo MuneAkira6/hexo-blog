@@ -524,7 +524,7 @@ categories:
 
 ========= ももちゃん（異形盤）
 
-### Agapanthus 1
+### Agapanthus 1 + 1（全新）
 
 ### Superbloom 1+1
 
@@ -533,6 +533,7 @@ categories:
 ### Rebon 1
 
 ========= ももちゃん（BD盤）
+TrySail
 
 ### 1st 1
 
