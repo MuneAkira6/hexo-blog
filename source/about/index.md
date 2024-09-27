@@ -2,6 +2,8 @@
 title: about
 ---
 
+> 推しを見るために日本に転職してきた支那人です。
+
 > 音を聞け！音を！
 
 - 恋愛脳
@@ -15,6 +17,8 @@ title: about
 - 回層浮
 - 輪符雨
 - 猛独が襲う
+
+- clumsy trick
 
 ![](https://i.imgur.com/AqiOKn3.jpg)
 
