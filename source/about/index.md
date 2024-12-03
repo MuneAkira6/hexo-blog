@@ -13,12 +13,11 @@ title: about
 - 春日影 (MyGO!!!!! ver.)
 - 眩耀夜行
 - 未来は風のように
-
 - 回層浮
 - 輪符雨
 - 猛独が襲う
-
 - clumsy trick
+- もしかしてもしかする
 
 ![](https://i.imgur.com/AqiOKn3.jpg)
 
