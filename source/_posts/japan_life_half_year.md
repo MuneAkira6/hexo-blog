@@ -120,7 +120,7 @@ JR在首都圈比较重要的线路：
 
 Apple Pay 刚进入日本的时候，是和 ID 和 QUICPay 两家合作的。当时在 Apple Pay 里面绑卡以后其实用不了タッチ決済，而是用的这两家的技术。而后来才真正支持タッチ決済。因为这一前一后的关系，日本的信用卡普遍同时支持两种支付方式。 所以你会看到一般的日本信用卡添加到 Wallet 以后会出现以下图标：
 
-![](https://i.imgur.com/2ca4Pd8_d.webp?maxwidth=760&fidelity=grand)
+![](https://imgur.com/HFWmYzR.jpg)
 
 这代表这张卡同时支持两种非接触支付方式：ID 和 タッチ決済。（顺带一提 ID 下面多了一个 DEBIT，这表示使用 ID 时链接的是该卡的 DEBIT 账户）
 
@@ -128,7 +128,7 @@ Apple Pay 刚进入日本的时候，是和 ID 和 QUICPay 两家合作的。当
 
 但偶尔有些卡绑了后没有タッチ決済图标：
 
-![](https://i.imgur.com/35dZpNn_d.webp?maxwidth=760&fidelity=grand)
+![](https://imgur.com/q3YZ58R.jpg)
 
 这张卡虽然有 MasterCard 的标志，但是没有タッチ決済的标志。实际使用中，这张卡只可以使用 ID，而更为普遍的タッチ決済则无法使用。
 
