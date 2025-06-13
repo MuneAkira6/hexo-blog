@@ -8,21 +8,29 @@ categories:
 ---
 
 ## Ref
+
 https://forum.videohelp.com/threads/408031-Dumping-Your-own-L3-CDM-with-Android-Studio
 
 https://github.com/wvdumper/dumper/issues/31#issuecomment-1745622411
 
+## Environment
+
+Mac Mini M2 Chip
+
+macOS 15.2
 
 ## Step
 
 ### 1. Android Studio
+
 Pixel 4 XL API 29 No Google Play
 
 ### 2. download frida-server
 
 `frida-server-16.0.2-android-arm64`
 
-### 3. 
+### 3.
+
 ```shell
 adb devices
 adb push frida-server-16.0.2-android-arm64 /sdcard
@@ -37,6 +45,7 @@ chmod +x /data/local/tmp/frida-server-16.0.2-android-arm64
 keep this window open!
 
 ### 4. dumper
+
 https://github.com/wvdumper/dumper
 
 ```shell
@@ -58,6 +67,7 @@ nm -gD libwvhidl.so
 ```
 
 the output will be like:
+
 ```shell
 000000000023fe14 T v2i_ASN1_BIT_STRING
 000000000023dfac T v2i_GENERAL_NAME
@@ -75,13 +85,23 @@ the output will be like:
 Add all the 8-digit function names to `dumper/Helpers/script.js`.
 
 ```js
-const KNOWN_DYNAMIC_FUNC = ['ulns', 'cwkfcplc', 'dnvffnze', 'vehbyocv', 'ygjiljer', 'yhwxewib', 'ywbqglwf', 'zlhgtlbc', 'znyuaxnv', 'zqajgkxr']; 
+const KNOWN_DYNAMIC_FUNC = [
+  "ulns",
+  "cwkfcplc",
+  "dnvffnze",
+  "vehbyocv",
+  "ygjiljer",
+  "yhwxewib",
+  "ywbqglwf",
+  "zlhgtlbc",
+  "znyuaxnv",
+  "zqajgkxr",
+];
 ```
 
-### 6. 
+### 6.
 
 Now, there are two windows opening.
 Then launch the emulator and go to `https://bitmovin.com/demos/drm`.
 
 the magic will happen!
-
