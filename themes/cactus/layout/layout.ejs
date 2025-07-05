@@ -1,5 +1,19 @@
 <!DOCTYPE html>
 <html<%= config.language ? " lang=" + config.language.substring(0, 2) : ""%>>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NTYCDBHW7Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NTYCDBHW7Q');
+
+  gtag('event', 'custom_event_test', {
+    category: 'test_category',
+    platform: 'web',
+  });
+</script>
 <%- partial('_partial/head') %>
 <body class="max-width mx-auto px3 <%- theme.direction -%>">
     <% if (is_post()) { %>
