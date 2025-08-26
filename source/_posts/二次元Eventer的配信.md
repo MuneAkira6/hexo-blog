@@ -1,6 +1,6 @@
 ---
 title: Eventer向配信教程
-date: 2025-7-5 01:23:56
+date: 2024-7-5 01:23:56
 tags:
   - Pseudo-tech
 categories:
@@ -13,7 +13,7 @@ categories:
 
 这里分享一些个人掌握的信息。
 
-现地看这里：
+现地看这里：http://muneakira6.github.io/japan_anime_travel.html
 
 ## 一、配信抓源
 
