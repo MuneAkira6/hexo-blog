@@ -7,6 +7,16 @@ categories:
   - Tech
 ---
 
+## はじめに
+
+学マスは本来 iOS / Android 向けのアプリですが、Mac 上でも動かす方法があります。  
+ここでは、**Sideloady** を使って IPA ファイルを Mac にインストールし、実際に動作させるまでの手順と、遭遇した問題・解決策をまとめます。
+
+Refはこちら：
+
+- https://note.com/hoy0verse/n/n043bb3308a0d#5e54f119-c5eb-45a0-bc8f-00c03c283214
+- https://misskey.io/notes/a5pvn728kcix0312
+
 ## Ref
 
 https://note.com/hoy0verse/n/n043bb3308a0d#5e54f119-c5eb-45a0-bc8f-00c03c283214
@@ -19,6 +29,8 @@ https://misskey.io/notes/a5pvn728kcix0312
 
 ### 1. Sideloadyをインストール
 
+まずは [Sideloady](https://sideloady.io/) をダウンロードしてインストールします。
+
 ### 2. 学マスのIPAファイルをダウンロード
 
 ### 3. Sideloadする
@@ -28,8 +40,6 @@ https://misskey.io/notes/a5pvn728kcix0312
 ここで問題発生。ログイン画面は正常ですが、ダウンロードが始まると画面が真っ黒になってしまいました。（おそらく横向き表示になるのが原因）
 
 ## 解決策
-
-(https://misskey.io/notes/a5pvn728kcix0312)
 
 これをipaに注入する。
 
@@ -49,4 +59,7 @@ https://misskey.io/notes/a5pvn728kcix0312
 
 ![](https://imgur.com/lAah548.jpg)
 
-でもやはり解像度はiPad仕様のまま。
+## 課題
+
+- 表示解像度は iPad 向け仕様 のまま
+- Mac 用に最適化されていないため UI がやや不自然

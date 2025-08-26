@@ -7,31 +7,33 @@ categories:
   - Tech
 ---
 
-## Ref
+## Introduction
 
-https://forum.videohelp.com/threads/408031-Dumping-Your-own-L3-CDM-with-Android-Studio
-
-https://github.com/wvdumper/dumper/issues/31#issuecomment-1745622411
+While exploring Widevine DRM and its L3 implementation, I experimented with extracting my own Content Decryption Module (CDM) keys using **Android Studio** and **Frida**.
+This post documents my environment, the exact steps I followed, and a few notes that might save time for anyone attempting the same process.
 
 ## Environment
 
-Mac Mini M2 Chip
+- **Machine**: Mac Mini (M2 Chip)
+- **OS**: macOS 15.2
+- **Emulator**: Pixel 4 XL, API 29 (without Google Play)
 
-macOS 15.2
+## Step 1 — Android Studio Setup
 
-## Step
+Create and launch an emulator.
+For my setup, I used a Pixel 4 XL image running API 29 without Google Play services.
 
-### 1. Android Studio
+## Step 2 — Download Frida Server
 
-Pixel 4 XL API 29 No Google Play
+Obtain the matching Frida server binary for the emulator’s architecture:
 
-### 2. download frida-server
+```
+frida-server-16.0.2-android-arm64
+```
 
-`frida-server-16.0.2-android-arm64`
+## Step 3 — Push Frida to the Emulator
 
-### 3.
-
-```shell
+```
 adb devices
 adb push frida-server-16.0.2-android-arm64 /sdcard
 adb shell
@@ -42,13 +44,14 @@ chmod +x /data/local/tmp/frida-server-16.0.2-android-arm64
 /data/local/tmp/frida-server-16.0.2-android-arm64
 ```
 
-keep this window open!
+Leave this shell running — Frida must stay active in the background.
 
-### 4. dumper
+## Step 4 — Dumper Setup
 
-https://github.com/wvdumper/dumper
+Clone and configure wvdumper.
+My Python environment looked like this:
 
-```shell
+```
 Package      Version
 ------------ -------
 frida        16.7.4
@@ -57,51 +60,55 @@ protobuf     3.20.3
 pycryptodome 3.22.0
 ```
 
-`python dump_keys.py`
+Then simply run:
 
-### 5. edit dumper
+```
+python dump_keys.py
+```
 
-```shell
+## Step 5 — Identifying Functions in libwvhidl.so
+
+Pull the library from the emulator:
+
+```
 adb pull /vendor/lib64/libwvhidl.so
 nm -gD libwvhidl.so
 ```
 
-the output will be like:
+The output includes multiple function names, such as:
 
-```shell
-000000000023fe14 T v2i_ASN1_BIT_STRING
-000000000023dfac T v2i_GENERAL_NAME
-000000000023ded0 T v2i_GENERAL_NAMES
-000000000023dfc4 T v2i_GENERAL_NAME_ex
+```
 000000000026eb00 T vehbyocv
 00000000002710f8 T ygjiljer
 0000000000270098 T yhwxewib
-000000000026ed48 T ywbqglwf
-000000000026e518 T zlhgtlbc
-0000000000270b90 T znyuaxnv
-000000000026ecd0 T zqajgkxr
+...
 ```
 
-Add all the 8-digit function names to `dumper/Helpers/script.js`.
+Add all suspicious-looking 8-character function names to dumper/Helpers/script.js. For example:
 
 ```js
-const KNOWN_DYNAMIC_FUNC = [
-  "ulns",
-  "cwkfcplc",
-  "dnvffnze",
-  "vehbyocv",
-  "ygjiljer",
-  "yhwxewib",
-  "ywbqglwf",
-  "zlhgtlbc",
-  "znyuaxnv",
-  "zqajgkxr",
-];
+const KNOWN_DYNAMIC_FUNC = ["vehbyocv", "ygjiljer", "yhwxewib", "ywbqglwf", "zlhgtlbc", "znyuaxnv", "zqajgkxr"];
 ```
 
-### 6.
+## Step 6 — Running the Demo
 
-Now, there are two windows opening.
-Then launch the emulator and go to `https://bitmovin.com/demos/drm`.
+At this point, you should have two terminal windows:
 
-the magic will happen!
+- one with the Frida server running,
+- one executing dump_keys.py.
+
+Now launch the emulator and visit https://bitmovin.com/demos/drm
+
+If everything is configured correctly, the **magic happens**: the dumper intercepts and reveals the keys.
+
+## Closing Thoughts
+
+This walkthrough is less of a polished tool release and more of a record of my own exploration. Still, it shows how approachable Widevine L3 research can be with the right setup.
+
+By combining Android Studio, Frida, and a bit of reverse-engineering curiosity, you can peek into how DRM operates at a lower level — and that’s an exciting learning experience for any developer.
+
+## Ref
+
+https://forum.videohelp.com/threads/408031-Dumping-Your-own-L3-CDM-with-Android-Studio
+
+https://github.com/wvdumper/dumper/issues/31#issuecomment-1745622411
