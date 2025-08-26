@@ -4,7 +4,7 @@ date: 2024-10-22 01:23:56
 tags:
   - Pseudo-tech
 categories:
-  - Tech
+  - Other
 ---
 
 ## 序
