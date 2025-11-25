@@ -80,4 +80,33 @@
 		</script>
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
 	<% } %>
+	
+	<!-- Schema.org Organization & WebSite Schema -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "WebSite",
+	  "name": "<%= config.title %>",
+	  "description": "<%= config.description %>",
+	  "url": "<%= config.url %>",
+	  "inLanguage": "<%= config.language %>",
+	  "author": {
+		"@type": "Person",
+		"name": "<%= config.author %>"
+	  },
+	  "publisher": {
+		"@type": "Organization",
+		"name": "<%= config.author %>",
+		"url": "<%= config.url %>"
+	  },
+	  "potentialAction": {
+		"@type": "SearchAction",
+		"target": {
+		  "@type": "EntryPoint",
+		  "urlTemplate": "<%= config.url %>/search?q={search_term_string}"
+		},
+		"query-input": "required name=search_term_string"
+	  }
+	}
+	</script>
 </head>
