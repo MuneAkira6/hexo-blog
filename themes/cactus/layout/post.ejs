@@ -14,38 +14,5 @@
   <div class="content e-content" itemprop="articleBody">
     <%- page.content %>
   </div>
-  
-  <!-- Schema.org Article Metadata -->
-  <meta itemprop="headline" content="<%= page.title %>">
-  <% if (page.description) { %>
-    <meta itemprop="description" content="<%= page.description %>">
-  <% } %>
-  <meta itemprop="image" content="<%= config.url %>/images/default-og-image.png">
-  <meta itemprop="url" content="<%= config.url %>/<%= page.path %>">
-  <meta itemprop="inLanguage" content="<%= config.language %>">
-  <meta itemprop="isAccessibleForFree" content="true">
 </article>
-
-<!-- JSON-LD Article Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "<%= page.title %>",
-  <% if (page.description) { %>"description": "<%= page.description %>",<% } %>
-  "author": {
-    "@type": "Person",
-    "name": "<% if (page.author) { %><%- page.author %><% } else { %><%- config.author %><% } %>"
-  },
-  "datePublished": "<%= date_xml(page.date) %>",
-  <% if (page.updated && page.date !== page.updated) { %>"dateModified": "<%= date_xml(page.updated) %>",<% } %>
-  "url": "<%= config.url %>/<%= page.path %>",
-  "image": "<%= config.url %>/images/default-og-image.png",
-  "inLanguage": "<%= config.language %>",
-  "isAccessibleForFree": true,
-  "keywords": "<% if (page.tags && page.tags.length) { %><%= page.tags.map(tag => tag.name).join(', ') %><% } %>",
-  "articleBody": "<%= page.content.replace(/<[^>]*>/g, '').substring(0, 500) %>..."
-}
-</script>
-
 <%- partial('_partial/comments') %>
