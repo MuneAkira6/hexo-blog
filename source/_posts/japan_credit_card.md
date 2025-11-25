@@ -238,7 +238,7 @@ bic camera 消费返11%，suica 充值返1.5%。
 
 在一般通贩网站上使用完全没有问题，本人遇到过唯一不能绑这种卡的网站是日本雅虎。
 
-线下使用的话，kyash 可以申请实体卡（要收制卡费）。他们也支持绑定 Apple Pay，不过 kyash 的 Apple Pay 只支持 quicpay+（没啥用），ANA Pay 是支持 visa touch 的，线下使用时推荐 ANA Pay。
+线下使用的话，kyash 可以申请实体卡（要收制卡费）。他们也支持绑定 Apple Pay，~~不过 kyash 的 Apple Pay 只支持 quicpay+（没啥用）~~（最新版已经切换到 visa touch），ANA Pay 是支持 visa touch 的，线下使用时推荐 ANA Pay。
 
 ### PayPay
 
