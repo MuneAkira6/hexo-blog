@@ -1,8 +1,12 @@
 ---
 title: 麻倉もも スキャン/ラジオ/配信/BDMV 永久保存版<br>Asakura Momo Resources
 date: 2026-01-30 01:23:56
+description: 麻倉もも（あさくらもも）の関連リソースまとめ。ラジオ、配信アーカイブ、写真集、雑誌のスキャン情報などを網羅した永久保存版。TrySail、マギアレコードなどの情報も含む。
+keywords: 麻倉もも, Asakura Momo, もちょ, TrySail, 声優, ラジオ, 配信, 画像, 写真集, スキャン, データベース
 tags:
   - Pseudo-techo
+  - 麻倉もも
+  - TrySail
 categories:
   - Tech
 ---

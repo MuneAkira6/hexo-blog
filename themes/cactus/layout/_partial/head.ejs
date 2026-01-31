@@ -15,7 +15,7 @@
     <meta name="keywords" content="<%- config.keywords %>">
     <% } %>
     <% if (!is_home()) { %>
-    <link rel="canonical" href="<%- config.url %><%- page.path %>">
+    <link rel="canonical" href="<%- full_url_for(page.path) %>">
     <% } %>
     <%- open_graph({
         image:          thumbnail(page),

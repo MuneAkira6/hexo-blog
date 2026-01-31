@@ -12,7 +12,7 @@ timezone: Japan # Japan
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://muneakira6.github.io/
+url: https://muneakira6.github.io
 permalink: :title.html
 permalink_defaults:
 pretty_urls:
@@ -139,3 +139,22 @@ sitemap:
   rel: false
   tags: true
   categories: true
+
+# Feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: " "
+  order_by: -date
+  autodiscovery: true
+
+# Robots.txt
+robotstxt:
+  useragent: "*"
+  allow:
+    - /
+  sitemap: https://muneakira6.github.io/sitemap.xml
