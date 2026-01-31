@@ -17,12 +17,6 @@ Refはこちら：
 - https://note.com/hoy0verse/n/n043bb3308a0d#5e54f119-c5eb-45a0-bc8f-00c03c283214
 - https://misskey.io/notes/a5pvn728kcix0312
 
-## Ref
-
-https://note.com/hoy0verse/n/n043bb3308a0d#5e54f119-c5eb-45a0-bc8f-00c03c283214
-
-https://misskey.io/notes/a5pvn728kcix0312
-
 ## 手順
 
 上記したRefを見れば大体わかると思います。
