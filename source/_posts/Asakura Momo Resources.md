@@ -99,16 +99,28 @@ categories:
 
 ### Solo
 
+- 『MOMO・SORA・SHIINA Talking Stage』#2 ～麻倉もものラジオの時間だよ～(o・∇・o)～ 【昼】【夜】
 - 「荒ぶる季節の乙女どもよ。」ニコ生特番
 - 家入レオ in the House #27 （麻倉もも出演）
 - TVアニメ「僕らの雨いろプロトコル」第1話直前特番
-- 『MOMO・SORA・SHIINA Talking Stage』#2 ～麻倉もものラジオの時間だよ～(o・∇・o)～ 【昼】【夜】
+
+#### オンラインリリイベ
+
+- Agapanthus オンラインリリースイベント（2020.4.12）
+- ピンキーフック オンラインイベント
+
+#### ゴージャス
+
+- （2020.4.13）ゴー☆ジャス＠レボ☆リューション～こんな声優ファン☆タスティック with ちくわP～
+- 【生放送】ゴー☆ジャス＠レボ☆リューション～こんな声優ファン☆タスティック with 日向もか～[ゲスト：麻倉もも]
+  ＊2024-05-13（LIBRA） / 2024-08-26（ChouChou） / 2025-02-10（フラガリア x アナナッサ）
 
 ### TrySail
 
 - TrySailのHalloween Party 本編 (2020/10/31)
 - TrySailのHalloween Party After Talk (2020/10/31)
 - LAWSON premium event TrySailのMusicRainbow07
+- Trysail「SuperBloom」発売記念オンラインイベント
 - TrySail Portal Square デビュー10周年記念生配信 アーカイブ
 - TrySailのTRYangle harmony 番組イベント2023【昼】【夜】
 - TrySailのTRYangle harmony 番組イベント2024【昼】【夜】
