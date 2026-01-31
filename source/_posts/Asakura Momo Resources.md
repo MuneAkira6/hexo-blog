@@ -14,7 +14,7 @@ categories:
 
 ## Link
 
-[Google Drive](https://drive.google.com/drive/folders/161KKti1MTl7aIwSiqjSerP1LY8bS_s--?usp=sharing)
+🔗[Google Drive](https://drive.google.com/drive/folders/161KKti1MTl7aIwSiqjSerP1LY8bS_s--?usp=sharing)
 
 ## Scans
 
