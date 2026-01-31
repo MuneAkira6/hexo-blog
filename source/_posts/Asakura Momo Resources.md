@@ -22,6 +22,7 @@ categories:
 - Peachy!
 - Agapanthus
 - Piacere!
+- ChouChou 電子版
 - TrySail 10周年出航ライブ “FlagShip” in 日本武道館
 - BestSail
 - トラハモ 2024
@@ -32,6 +33,7 @@ categories:
 
 ### 写真集
 
+- 麻倉もも写真集 pleasant (2018.10.23)
 - ただいま、おかえり
 - Apiacere【初回生産限定盤Type B】
 - Piacere!ライブ写真集
@@ -46,6 +48,7 @@ categories:
 - Mygirl vol.35
 - Mygirl vol.39
 - Mygirl vol.40
+- Mygirl vol.40 電子版（SP付）
 - Mygirl vol.42
 - VOICE BRODY vol.9
 - VOICE GIRLS vol.28
@@ -80,7 +83,6 @@ categories:
 - ChouChou Live BD
 - フラガリア x アナナッサ
 - めいきゅーらぶみー
-
 - 他
 
 ## Radios
@@ -137,3 +139,9 @@ categories:
 
 ここには載せきれていないリソースもまだまだ手元にあります。
 何か探してるものがあれば、 muneakira##gmail.com まで連絡ください。
+
+SEO対策でももちゃんの画像を投げます↓
+
+![](https://imgur.com/QUKfm2h.jpg)
+![](https://imgur.com/Ok3Jft5.jpg)
+![](https://imgur.com/XsL5NPT.jpg)
