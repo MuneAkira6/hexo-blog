@@ -11,6 +11,8 @@ categories:
 
 ## Link
 
+[Google Drive](https://drive.google.com/drive/folders/161KKti1MTl7aIwSiqjSerP1LY8bS_s--?usp=sharing)
+
 ## Scans
 
 基本ももちゃんのカットだけスキャンしました。
@@ -66,7 +68,7 @@ categories:
 
 ### ブロマイド
 
-> まだまだ施工中...
+まだまだ施工中...
 
 - Agapanthus
 - 彩色硝子
@@ -95,14 +97,27 @@ categories:
 - 「荒ぶる季節の乙女どもよ。」ニコ生特番
 - 家入レオ in the House #27 （麻倉もも出演）
 - TVアニメ「僕らの雨いろプロトコル」第1話直前特番
-- 『MOMO・SORA・SHIINA Talking Stage』#2 ～麻倉もものラジオの時間だよ～(o・∇・o)～ 【昼】
-- 『MOMO・SORA・SHIINA Talking Stage』#2 ～麻倉もものラジオの時間だよ～(o・∇・o)～ 【夜】
+- 『MOMO・SORA・SHIINA Talking Stage』#2 ～麻倉もものラジオの時間だよ～(o・∇・o)～ 【昼】【夜】
 
 ### TrySail
 
 - TrySailのHalloween Party 本編 (2020/10/31)
 - TrySailのHalloween Party After Talk (2020/10/31)
+- LAWSON premium event TrySailのMusicRainbow07
 - TrySail Portal Square デビュー10周年記念生配信 アーカイブ
+- TrySailのTRYangle harmony 番組イベント2023【昼】【夜】
+- TrySailのTRYangle harmony 番組イベント2024【昼】【夜】
+- TrySailのTRYangle harmony 番組イベント2025【昼】【夜】
+
+#### トラハモ Fandisc 特典DVD
+
+- #1 SS特典 もちょツアーin牧のうどん
+- #1 SS特典 もちょツアーin由布院&福岡
+- #5 SS特典 もちょツアーin台湾
+- #7 SS特典 トラハモ番組イベント2017
+- #9 SS特典 射的セイル完全版
+- #9 豪華草津の旅
+- #11 SS特典 トラハモ番組イベント2019
 
 ### マギレコ
 
@@ -112,10 +127,13 @@ categories:
 
 ## BDMVs
 
-## 言いたいこと
+## 最後に（言い訳）
 
 違法アップロードですね！
 
-とはいえ合法の配信はアーカイブ時間というやつがある以上、仕方ないと思います。
+毎回思うのが、アーカイブ期間がある配信ってどうしても見るのが辛い。（権利云々で仕方ないんですが）
+あの瞬間の熱量や感動まで無かったことになるのは、あまりにも惜しいと思うんです。
+だからこそ、その記憶を形にして、文化の火種として守り続ける必要があるのかな、と。
 
-私に凸りたいならmuneakira##gmail.comにどうぞ。
+ここには載せきれていないリソースもまだまだ手元にあります。
+何か探してるものがあれば、 muneakira##gmail.com まで連絡ください。
