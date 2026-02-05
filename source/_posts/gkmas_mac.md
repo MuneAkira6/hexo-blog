@@ -1,8 +1,13 @@
 ---
 title: 学マスをMacで遊ぶ方法
-date: 2025-5-12 01:23:56
+date: 2025-05-12 01:23:56
+description: 学園アイドルマスター（学マス）をMacで遊ぶための完全ガイド。Sideloadyを使ってIPAファイルをインストールし、横画面問題を解決する方法を解説します。
+keywords: 学マス, 学園アイドルマスター, Mac, Sideloady, iOSアプリ, M1 Mac, M2 Mac, インストール方法
 tags:
-  - Pseudo-tech
+  - 学マス
+  - Mac
+  - Sideloady
+  - ゲーム
 categories:
   - Tech
 ---
@@ -51,7 +56,7 @@ Refはこちら：
 
 また画面が黒くなった時、左上のメニューの`表示`->`横向き`/`縦向き`を切り替えれば直るはず。
 
-![](https://imgur.com/lAah548.jpg)
+![Sideloadyで学マスをMacにインストールして起動した画面](https://imgur.com/lAah548.jpg)
 
 ## 課題
 
