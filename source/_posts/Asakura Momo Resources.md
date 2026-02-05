@@ -162,6 +162,25 @@ categories:
 
 SEO対策でももちゃんの画像を投げます↓
 
-![](https://imgur.com/QUKfm2h.jpg)
-![](https://imgur.com/Ok3Jft5.jpg)
-![](https://imgur.com/XsL5NPT.jpg)
+![Asakura Momo 1](https://imgur.com/QUKfm2h.jpg)
+![Asakura Momo 2](https://imgur.com/Ok3Jft5.jpg)
+![Asakura Momo 3](https://imgur.com/XsL5NPT.jpg)
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Asakura Momo Resources / 麻倉もも リソースまとめ",
+  "image": [
+    "https://imgur.com/QUKfm2h.jpg",
+    "https://imgur.com/Ok3Jft5.jpg",
+    "https://imgur.com/XsL5NPT.jpg"
+  ],
+  "datePublished": "2026-01-30T01:23:56+09:00",
+  "author": {
+    "@type": "Person",
+    "name": "Mune Akira"
+  },
+  "description": "Comprehensive collection of Asakura Momo resources including radio archives, live streams, magazine scans, and photo books."
+}
+</script>
