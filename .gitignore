@@ -7,3 +7,5 @@ public/
 .deploy*/
 _multiconfig.yml
 Project.json
+# Apple Notes export (private) — do not publish
+notes-export/
