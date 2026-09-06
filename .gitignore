@@ -9,3 +9,5 @@ _multiconfig.yml
 Project.json
 # Apple Notes export (private) — do not publish
 notes-export/
+# 圧縮前の原図（退避用・非公開）
+_originals/
