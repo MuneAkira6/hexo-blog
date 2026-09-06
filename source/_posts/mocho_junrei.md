@@ -14,7 +14,7 @@ categories:
 
 5年も経ったな。時間の流れよ。
 
-長崎編はこちら → [麻倉もも Apiacere聖地巡礼 長崎ロケ地ガイド](/mocho_junrei_nagasaki.html)
+長崎編はこちら → [麻倉もも Apiacere聖地巡礼 長崎](/mocho_junrei_nagasaki.html)
 
 ## 1. 牧のうどん　博多バスターミナル店
 
@@ -130,8 +130,6 @@ categories:
 
 時々こうなって死にたい気持ちですわ。
 
-## 長崎編もあります
+## 長崎編
 
-アルバム「Apiacere」付属写真集の長崎ロケ地も巡ってきました。眼鏡橋、オランダ坂、長崎孔子廟、桃カステラ、チリンチリンアイス。こっちも聖地が濃いです。
-
-→ [麻倉もも Apiacere聖地巡礼 長崎ロケ地ガイド](/mocho_junrei_nagasaki.html)
+→ [麻倉もも Apiacere聖地巡礼 長崎](/mocho_junrei_nagasaki.html)
