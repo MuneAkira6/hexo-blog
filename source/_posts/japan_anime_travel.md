@@ -1,6 +1,9 @@
 ---
 title: Eventer向日旅教程
 date: 2024-6-18 01:23:56
+updated: 2025-05-05 13:49:54
+description: "面向二次元 Eventer 的日本旅行教程：票务、单次与三年五年多次签证的申请、出签后的入境流程，以及机票和行程安排的实际经验。"
+lang: zh-CN
 tags:
   - Pseudo-tech
 categories:

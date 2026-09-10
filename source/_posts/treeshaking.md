@@ -1,6 +1,9 @@
 ---
 title: 笔记：Tree Shaking
 date: 2024-12-01 01:23:56
+updated: 2025-08-26 15:03:19
+description: "Tree Shaking 笔记：为什么必须依赖 ES Modules 的静态可分析性、如何在 Webpack 中启用，以及 FlagDependencyExportsPlugin 等背后的实现原理。"
+lang: zh-CN
 tags:
   - Pseudo-tech
 categories:

@@ -1,6 +1,8 @@
 ---
 title: 麻倉ももLive Tour ChouChou名古屋公演紀行
 date: 2024-08-14 00:23:56
+updated: 2024-12-04 00:40:31
+description: "麻倉ももLive Tour「ChouChou」名古屋公演の遠征記。工签から在留カード、航空券とホテル、持ち物、推し活、そして名古屋二日間の遊記まで。"
 tags:
   - 麻倉もも
   - 巡礼

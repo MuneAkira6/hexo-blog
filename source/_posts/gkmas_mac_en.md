@@ -1,6 +1,11 @@
 ---
 title: "How to Play Gakumas (Gakuen Idol Master) on Mac: Sideloady Guide"
 date: 2026-02-05 01:23:56
+updated: 2026-02-06 00:01:03
+alternate:
+  ja: /gkmas_mac.html
+  en: /gkmas_mac_en.html
+lang: en
 description: A complete guide on how to play Gakumas (Gakuen Idol Master) on Mac using Sideloady. Learn how to fix the black screen issue and run the iOS app on your Mac.
 keywords: Gakumas, Gakuen Idol Master, Mac, Sideloady, iOS app, Gaming, Tutorial, M1 Mac, M2 Mac
 tags:
@@ -55,7 +60,7 @@ Sideload again.
 
 If the screen turns black again, switching `View` -> `Landscape`/`Portrait` from the top left menu should fix it.
 
-![Gakumas running on Mac via Sideloady](https://imgur.com/lAah548.jpg)
+![Gakumas running on Mac via Sideloady](https://i.imgur.com/lAah548.jpg)
 
 ## Issues
 

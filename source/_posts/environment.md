@@ -1,6 +1,9 @@
 ---
 title: 环境问题汇总
 date: 2023-12-02 00:23:56
+updated: 2024-12-04 00:40:31
+description: "开发环境踩坑记录：.zshrc 的配置，以及 Windows 下 yarn 报错时通过 PowerShell 修改执行策略的解决办法。"
+lang: zh-CN
 tags:
   - Pseudo-tech
 categories:

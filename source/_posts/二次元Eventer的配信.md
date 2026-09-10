@@ -1,6 +1,9 @@
 ---
 title: Eventer向配信教程
 date: 2024-7-5 01:23:56
+updated: 2025-08-26 15:04:05
+description: "面向二次元 Eventer 的配信教程：直播源的抓取方法、Widevine DRM 的背景知识与破解思路，以及获取自己的 CDM 并编写脚本的完整流程。"
+lang: zh-CN
 tags:
   - Pseudo-tech
 categories:

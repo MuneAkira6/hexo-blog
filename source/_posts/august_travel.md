@@ -1,6 +1,8 @@
 ---
 title: アニサマ2024紀行
 date: 2024-08-08 00:23:56
+updated: 2024-12-04 00:40:31
+description: "Animelo Summer Live 2024 -Stargazer- の遠征記。チケット当選からビザ・航空券・ホテルの手配、持ち物リスト、そしてさいたま二日間の遊記まで。"
 tags:
   - 麻倉もも
   - MyGO!!!!!

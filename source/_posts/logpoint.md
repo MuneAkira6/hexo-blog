@@ -1,6 +1,8 @@
 ---
 title: console.log の代わりに Logpoints を使う話
 date: 2025-05-03 00:23:56
+updated: 2025-08-26 15:04:05
+description: "console.log の代わりに Chrome / Edge の Logpoints を使う話。コードを一切編集せずにログを出せる仕組みと、その具体的な使い方を紹介する。"
 tags:
   - Pseudo-tech
 categories:
@@ -21,13 +23,13 @@ console.log() を書かずに同じことができるわけです。
 
 1. DevTools を開き、Sources タブで対象ファイルを表示（Cmd + P）
 2. 行番号を右クリックして Add logpoint… を選択
-   ![](https://imgur.com/gWjWhbf.jpg)
+   ![行番号を右クリックしてAdd logpointを選択する操作画面](https://i.imgur.com/gWjWhbf.jpg)
 3. 出力したい内容や変数を入力
-   ![](https://imgur.com/wj3Vtmu.jpg)
+   ![Logpointに出力したい内容や変数を入力する画面](https://i.imgur.com/wj3Vtmu.jpg)
 
 これで準備が完了です。Logpoints が設定された箇所のコードが実行されると、コンソールにメッセージが出力されます。
 
-![](https://imgur.com/effmpxz.jpg)
+![Logpointsで出力されたコンソールのログ](https://i.imgur.com/effmpxz.jpg)
 
 ## まとめ
 

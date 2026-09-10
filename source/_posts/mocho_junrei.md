@@ -1,6 +1,8 @@
 ---
 title: 麻倉もも写真集「ただいま、おかえり」巡礼
 date: 2024-03-28 00:23:56
+updated: 2026-09-06 18:34:23
+description: "麻倉もも写真集「ただいま、おかえり」の聖地巡礼記。牧のうどん、櫛田神社、ももち浜、のこしまアイランドパークなど福岡の撮影地を巡る。"
 tags:
   - 麻倉もも
   - 声優
@@ -21,38 +23,38 @@ categories:
 写真集には出てなかったけど、食券機にももちゃんセットボタンがあって実に面白い。
 僕初心者なのでももちゃんセットボタン見つけなくてトッピングだけを注文したら、店員さんが、「もしかしてももちゃんセットですか？」って。すごいな雑草たち笑。
 
-![](https://imgur.com/FK6Nz4A.jpg)
+![牧のうどん博多バスターミナル店の食券機にあるももちゃんセットボタン](https://i.imgur.com/FK6Nz4A.jpg)
 
 ## 2. 牧のうどん　空港店
 
 雑草の聖地ね。
 
-![](https://imgur.com/zYe82aE.jpg)
+![牧のうどん空港店の店内](https://i.imgur.com/zYe82aE.jpg)
 
 この量すごいですわ　僕長身なおっさんですが結構頑張った。もちょすご...
 
-![](https://imgur.com/fiNVK35.jpg)
+![牧のうどんのうどん一杯の量](https://i.imgur.com/fiNVK35.jpg)
 
 あのサイン！
 
-![](https://imgur.com/PQtvzST.jpg)
+![牧のうどん空港店に飾られた麻倉もものサイン](https://i.imgur.com/PQtvzST.jpg)
 
 ## 3. 櫛田神社
 
 正殿前。写真集の赤色は綺麗ですけど、僕のスマホからは、まあ。
 
-![](https://imgur.com/FWqKti4.jpg)
-![](https://imgur.com/aNJPavH.jpg)
+![櫛田神社の正殿前](https://i.imgur.com/FWqKti4.jpg)
+![櫛田神社の正殿](https://i.imgur.com/aNJPavH.jpg)
 
 絵馬。
 
-![](https://imgur.com/DXh99Hj.jpg)
-![](https://imgur.com/uTFtIUo.jpg)
+![櫛田神社の絵馬](https://i.imgur.com/DXh99Hj.jpg)
+![櫛田神社に並ぶ絵馬](https://i.imgur.com/uTFtIUo.jpg)
 
 鳥居。写真集の中でこの一枚大好き。
 
-![](https://imgur.com/YTZQuMj.jpg)
-![](https://imgur.com/q4p0rTF.jpg)
+![櫛田神社の鳥居](https://i.imgur.com/YTZQuMj.jpg)
+![櫛田神社の鳥居を見上げたところ](https://i.imgur.com/q4p0rTF.jpg)
 
 ## 4. ももち浜
 
@@ -60,46 +62,46 @@ categories:
 
 この湾岸ね。砂浜でもちょの生足が…もちょの胴体が…ワクワク（ゲス顔）
 
-![](https://imgur.com/xOOlAiq.jpg)
-![](https://imgur.com/PTppVUF.jpg)
+![ももち浜の湾岸](https://i.imgur.com/xOOlAiq.jpg)
+![ももち浜の砂浜](https://i.imgur.com/PTppVUF.jpg)
 
 この建物、なんだかスペインのローマンウェディング？
 
-![](https://imgur.com/7oml1mU.jpg)
-![](https://imgur.com/l9bLmXR.jpg)
+![ももち浜に建つ建物](https://i.imgur.com/7oml1mU.jpg)
+![ももち浜の建物と海辺](https://i.imgur.com/l9bLmXR.jpg)
 
 ## 5. のこしまアイランドパーク
 
 のこしま。このパーク大好き。また行きたいな。
 
-![](https://imgur.com/34mJAm0.jpg)
+![のこしまアイランドパークの園内](https://i.imgur.com/34mJAm0.jpg)
 
 フェリー。
 
-![](https://imgur.com/kcLhgMY.jpg)
-![](https://imgur.com/hTq0v07.jpg)
+![能古島へ向かうフェリー](https://i.imgur.com/kcLhgMY.jpg)
+![フェリーから見た海](https://i.imgur.com/hTq0v07.jpg)
 
 あの伝説のブランコ！もちょの一番大きい丸がここに接触して…わーい(o・∇・o)
 
-![](https://imgur.com/DerRAyJ.jpg)
-![](https://imgur.com/NvVn1MS.jpg)
+![のこしまアイランドパークのブランコ](https://i.imgur.com/DerRAyJ.jpg)
+![写真集に登場したブランコ](https://i.imgur.com/NvVn1MS.jpg)
 
 記憶の道に沿う。
 
-![](https://imgur.com/EtsgJtd.jpg)
-![](https://imgur.com/2IHlKkU.jpg)
+![のこしまアイランドパークの小道](https://i.imgur.com/EtsgJtd.jpg)
+![園内の記憶の道](https://i.imgur.com/2IHlKkU.jpg)
 
-![](https://imgur.com/rO5qgJb.jpg)
-![](https://imgur.com/1g98HuQ.jpg)
+![のこしまアイランドパークの風景](https://i.imgur.com/rO5qgJb.jpg)
+![のこしまアイランドパークの園内風景](https://i.imgur.com/1g98HuQ.jpg)
 
 このポストカードはまだ売ってますよ。
 
-![](https://imgur.com/E3BrfxV.jpg)
+![のこしまアイランドパークで売られているポストカード](https://i.imgur.com/E3BrfxV.jpg)
 
 写真集のこの花畑の一枚大好き！でも時期的には花はまだです。
 
-![](https://imgur.com/R3oSizs.jpg)
-![](https://imgur.com/BAYLaXt.jpg)
+![のこしまアイランドパークの花畑](https://i.imgur.com/R3oSizs.jpg)
+![花の時期を迎える前の花畑](https://i.imgur.com/BAYLaXt.jpg)
 
 ## 今回行けなかった場所
 

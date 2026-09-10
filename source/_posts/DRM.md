@@ -1,6 +1,9 @@
 ---
 title: Dumping My own L3 CDM with Android Studio
 date: 2025-04-02 00:23:56
+updated: 2025-08-26 15:03:08
+description: "A hands-on walkthrough of dumping my own Widevine L3 CDM with Android Studio and Frida: emulator setup, pushing the Frida server, identifying the target functions, and running the dumper."
+lang: en
 tags:
   - Pseudo-tech
 categories:

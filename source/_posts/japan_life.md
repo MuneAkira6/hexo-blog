@@ -1,6 +1,9 @@
 ---
 title: 日本求生指南
 date: 2024-10-22 01:23:56
+updated: 2025-08-26 15:38:47
+description: "日本求生指南：赴日前的在留与工签准备、租房和国际信用卡，落地第一周的在留卡住址登记、银行开户与手机卡办理，写给来日工作的人。"
+lang: zh-CN
 tags:
   - Pseudo-tech
 categories:

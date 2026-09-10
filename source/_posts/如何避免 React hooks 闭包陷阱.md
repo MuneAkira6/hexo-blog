@@ -2,6 +2,9 @@
 title: 如何避免 React hooks 闭包陷阱
 
 date: 2022-11-01 01:23:56
+updated: 2025-08-26 15:21:51
+description: "React Hooks 闭包陷阱的成因与解法：从 memo、useMemo、useCallback 的实例演示出发，说明依赖项如何导致读到过期的 state，以及几种规避方式。"
+lang: zh-CN
 tags:
   - Pseudo-tech
 categories:

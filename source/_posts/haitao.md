@@ -1,6 +1,9 @@
 ---
 title: 个人向海淘教程
 date: 2024-2-19 01:23:56
+updated: 2024-12-04 00:40:31
+description: "面向日本 CD、BD 与周边的个人海淘教程：信用卡卡种与入账周期、邮政转运与申报、清关流程和物流时效，都是实际踩过坑之后的记录。"
+lang: zh-CN
 tags:
   - Pseudo-tech
 categories:

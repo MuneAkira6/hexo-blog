@@ -1,6 +1,8 @@
 ---
 title: 2023 Best Album
 date: 2023-12-27 00:23:56
+updated: 2025-08-26 15:05:34
+description: "2023年に出会ったベストアルバムを月ごとに。結束バンド、麻倉もも「Peachy!」、HoneyWorksなど、時間軸に沿って選んだ一年の音楽記録。"
 tags:
   - 音楽
   - 麻倉もも
@@ -12,7 +14,7 @@ categories:
 
 ## 1月
 
-<img src="https://imgur.com/OiLAm5z.jpg" width="500">
+<img alt="結束バンド - 結束バンドのジャケット写真" src="https://i.imgur.com/OiLAm5z.jpg" width="500">
 
 ### **結束バンド - 結束バンド**
 
@@ -20,7 +22,7 @@ categories:
 
 ## 2月
 
-<img src="https://imgur.com/IOVGdRT.jpg" width="500">
+<img alt="fragile - 森谷美鈴 (伊藤美来) & 村上遥 (宮本侑芽)のジャケット写真" src="https://i.imgur.com/IOVGdRT.jpg" width="500">
 
 ### **fragile - 森谷美鈴 (伊藤美来) & 村上遥 (宮本侑芽)**
 
@@ -28,7 +30,7 @@ categories:
 
 ## 3月
 
-<img src="https://imgur.com/181vU6V.jpg" width="500">
+<img alt="「たまゆら」主題歌コレクションのジャケット写真" src="https://i.imgur.com/181vU6V.jpg" width="500">
 
 ### **「たまゆら」主題歌コレクション**
 
@@ -38,15 +40,15 @@ categories:
 
 ## 4月
 
-<img src="https://imgur.com/DPvbxmP.jpg" width="500">
+<img alt="Peachy! - 麻倉もものジャケット写真" src="https://i.imgur.com/DPvbxmP.jpg" width="500">
 
 ### **Peachy! - 麻倉もも**
 
-<img src="https://imgur.com/jJ7x2ZI.jpg" width="500">
+<img alt="Agapanthus - 麻倉もものジャケット写真" src="https://i.imgur.com/jJ7x2ZI.jpg" width="500">
 
 ### **Agapanthus - 麻倉もも**
 
-<img src="https://imgur.com/xMK4Em3.jpg" width="500">
+<img alt="Apiacere - 麻倉もものジャケット写真" src="https://i.imgur.com/xMK4Em3.jpg" width="500">
 
 ### **Apiacere - 麻倉もも**
 
@@ -58,7 +60,7 @@ _声優アーティスト聴き始め。_
 
 ## 5月
 
-<img src="https://imgur.com/hZirlh5.jpg" width="500">
+<img alt="光の中へ - 結束バンドのジャケット写真" src="https://i.imgur.com/hZirlh5.jpg" width="500">
 
 ### **光の中へ - 結束バンド**
 
@@ -66,15 +68,15 @@ _声優アーティスト聴き始め。_
 
 ## 6月
 
-<img src="https://imgur.com/FMmvWDc.jpg" width="500">
+<img alt="アイドル - YOASOBIのジャケット写真" src="https://i.imgur.com/FMmvWDc.jpg" width="500">
 
 ### **アイドル - YOASOBI**
 
-<img src="https://imgur.com/QQnSUFn.jpg" width="500">
+<img alt="ワールドダイスター 劇中歌アルバムのジャケット写真" src="https://i.imgur.com/QQnSUFn.jpg" width="500">
 
 ### **ワールドダイスター 劇中歌アルバム**
 
-<img src="https://imgur.com/zCljhpq.jpg" width="500">
+<img alt="推しの子 キャラクターソングCD Vol.2.5のジャケット写真" src="https://i.imgur.com/zCljhpq.jpg" width="500">
 
 ### **推しの子 キャラクターソングCD Vol.2.5**
 
@@ -85,7 +87,7 @@ _声優アーティスト聴き始め。_
 
 ## 7月
 
-<img src="https://imgur.com/zOJWw3j.jpg" width="500">
+<img alt="推しの子 キャラクターソングCD Vol.1のジャケット写真" src="https://i.imgur.com/zOJWw3j.jpg" width="500">
 
 ### **推しの子 キャラクターソングCD Vol.1**
 
@@ -93,7 +95,7 @@ _声優アーティスト聴き始め。_
 
 ## 8月
 
-<img src="https://imgur.com/MLBrsVD.jpg" width="500">
+<img alt="シュワワ！ - 麻倉もものジャケット写真" src="https://i.imgur.com/MLBrsVD.jpg" width="500">
 
 ### **シュワワ！ - 麻倉もも**
 
@@ -101,7 +103,7 @@ _声優アーティスト聴き始め。_
 
 ## 9月
 
-<img src="https://imgur.com/8RcFkLz.jpg" width="500">
+<img alt="THE BOOK3 - YOASOBIのジャケット写真" src="https://i.imgur.com/8RcFkLz.jpg" width="500">
 
 ### **THE BOOK3 - YOASOBI**
 
@@ -111,7 +113,7 @@ CD10月まで入手したが、よく聞くのは9月。`アイドル`の前奏�
 
 ## 10月
 
-<img src="https://imgur.com/0dO1SdG.jpg" width="500">
+<img alt="MyGO!!!!! LIVE 1-4のジャケット写真" src="https://i.imgur.com/0dO1SdG.jpg" width="500">
 
 ### **MyGO!!!!! LIVE 1-4**
 
@@ -121,7 +123,7 @@ MyGO!!!!!といえばライブ音源や。LIVE BESTと思えば、`二息歩行`
 
 ## 11月
 
-<img src="https://imgur.com/zSglqzR.jpg" width="500">
+<img alt="迷跡波 - MyGO!!!!!のジャケット写真" src="https://i.imgur.com/zSglqzR.jpg" width="500">
 
 ### **迷跡波 - MyGO!!!!!**
 
@@ -131,11 +133,11 @@ _MyGOの影響でボカロPが聴き始め。_
 
 ## 12月
 
-<img src="https://imgur.com/o4TZLbr.jpg" width="500">
+<img alt="Holiday∞Holiday - スリーズブーケのジャケット写真" src="https://i.imgur.com/o4TZLbr.jpg" width="500">
 
 ### **Holiday∞Holiday - スリーズブーケ**
 
-<img src="https://imgur.com/1mf3OjH.jpg" width="500">
+<img alt="眩耀夜行 - スリーズブーケのジャケット写真" src="https://i.imgur.com/1mf3OjH.jpg" width="500">
 
 ### **眩耀夜行 - スリーズブーケ**
 

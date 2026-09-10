@@ -1,6 +1,9 @@
 ---
 title: iPhone调试移动端webview
 date: 2022-11-12 01:23:56
+updated: 2025-08-26 15:21:51
+description: "iPhone 移动端 webview 调试方法：用 Xcode 自带的 Simulator 模拟器调试，以及通过 Safari 开发者菜单连接真机调试的完整步骤。"
+lang: zh-CN
 tags:
   - Pseudo-tech
 categories:

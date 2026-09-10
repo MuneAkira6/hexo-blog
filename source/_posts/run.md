@@ -1,6 +1,9 @@
 ---
 title: RUN!CAN!FUN!
 date: 2024-4-2 00:23:56
+updated: 2025-08-26 15:05:34
+description: "赴日工作的准备清单：技人国与高度人才签证的区别与打分、在留资格和工签的申请流程，以及租房、在留卡、银行卡、电话卡的办理顺序。"
+lang: zh-CN
 tags:
   - RUN!
 categories:

@@ -1,6 +1,9 @@
 ---
 title: 笔记：React Query优化
 date: 2024-12-13 02:23:56
+updated: 2025-08-26 15:03:19
+description: "React Query 优化笔记：isFetching 引起的重复渲染问题，以及如何用 notifyOnChangeProps、Tracked Queries 与 Structural Sharing 减少不必要的渲染。"
+lang: zh-CN
 tags:
   - Pseudo-tech
 categories:

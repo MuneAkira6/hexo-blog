@@ -1,6 +1,8 @@
 ---
 title: MyGO!!!!!合同ライブ紀行
 date: 2024-04-05 00:23:56
+updated: 2024-12-04 14:01:29
+description: "Poppin'Party×MyGO!!!!!合同ライブ（横浜アリーナ）の遠征記。当選からビザ、航空券、ホテル、荷物リスト、そして四月の遊記までをまとめた。"
 tags:
   - MyGO!!!!!
   - 巡礼
@@ -96,7 +98,7 @@ Teardropsの衝撃、
 と、
 孤独に慣れた自分。
 
-![](https://imgur.com/yR0avnk.jpg)
+![横浜アリーナ遠征4月29日の記録写真](https://i.imgur.com/yR0avnk.jpg)
 
 ### 4月30日
 

@@ -1,6 +1,8 @@
 ---
 title: Disc Database
 date: 2024-05-27 00:23:56
+updated: 2024-12-04 00:40:31
+description: "所有しているCD・Blu-rayのディスク一覧。アニサマやSACRA FES、声優ライブの円盤、アニメ主題歌やキャラソンの収録曲をまとめた個人データベース。"
 tags:
   - 音楽
 categories:

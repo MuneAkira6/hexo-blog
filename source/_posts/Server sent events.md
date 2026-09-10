@@ -1,6 +1,9 @@
 ---
 title: Server-Sent Events教程
 date: 2024-8-12 01:23:56
+updated: 2025-08-26 15:38:47
+description: "Server-Sent Events 教程：SSE 与 WebSocket 的取舍、服务器端的响应格式、EventSource 对象的用法与局限，以及如何基于 fetch 改造出更灵活的实现。"
+lang: zh-CN
 tags:
   - Pseudo-tech
 categories:

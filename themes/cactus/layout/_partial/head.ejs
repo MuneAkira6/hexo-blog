@@ -1,30 +1,42 @@
 <head>
     <!-- so meta -->
     <meta charset="utf-8">
-    <!-- <meta name="robots" content="noindex"> -->
-    <!-- <meta name="googlebot" content="noindex"> -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="google-site-verification" content="Kd5i9xsNaiKCLKdHxNrx0RIUXBczfd2VxycDTU5Pp28" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
     <!-- SEO meta tags -->
-    <meta name="description" content="<% if (page.description) { %><%- page.description %><% } else { %><%- config.description %><% } %>">
-    <% if (page.keywords) { %>
-    <meta name="keywords" content="<%- page.keywords %>">
-    <% } else { %>
-    <meta name="keywords" content="<%- config.keywords %>">
+    <%
+      var seoDescription = seo_description(page);
+      var seoKeywords    = seo_keywords(page);
+      var seoImage       = seo_image(page);
+      var seoOgImage     = seoImage || (theme.logo && theme.logo.url ? full_url_for(theme.logo.url) : '');
+      var seoCanonical   = page.canonical_url
+                             ? full_url_for(page.canonical_url)
+                             : (is_home() ? config.url.replace(/\/$/, '') + '/' : full_url_for(page.path));
+    %>
+    <% if (seoKeywords) { %>
+    <meta name="keywords" content="<%= seoKeywords %>">
     <% } %>
-    <% if (!is_home()) { %>
-    <link rel="canonical" href="<%- full_url_for(page.path) %>">
+    <link rel="canonical" href="<%- seoCanonical %>">
+    <% if (page.alternate) { %>
+      <% Object.keys(page.alternate).forEach(function (hreflang) { %>
+    <link rel="alternate" hreflang="<%= hreflang %>" href="<%- full_url_for(page.alternate[hreflang]) %>">
+      <% }) %>
+    <link rel="alternate" hreflang="x-default" href="<%- full_url_for(page.alternate['en'] || page.alternate[Object.keys(page.alternate)[0]]) %>">
     <% } %>
     <%- open_graph({
-        image:          thumbnail(page),
+        title:          seo_title(page) || config.title,
+        description:    seoDescription,
+        image:          seoOgImage,
+        twitter_card:   seoImage ? 'summary_large_image' : 'summary',
         fb_app_id:      theme.open_graph.fb_app_id,
         fb_admins:      theme.open_graph.fb_admins,
         twitter_id:     theme.open_graph.twitter_id,
         google_plus:    theme.open_graph.google_plus,
     }) %>
     <%- meta(page) %>
+    <%- seo_jsonld(page) %>
     <% if (theme.favicon) { %>
       <% if (theme.favicon.desktop) { %>
         <% if (theme.gravatar && (theme.gravatar.email || theme.gravatar.hash) && theme.favicon.desktop.gravatar) { %>
@@ -62,7 +74,18 @@
     <% } %>
     <!-- title -->
     <title><%= page_title() %></title>
+    <!-- preconnect to the image CDN so post images start loading sooner -->
+    <link rel="preconnect" href="https://i.imgur.com" crossorigin>
+    <link rel="dns-prefetch" href="https://i.imgur.com">
     <!-- async scripts -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NTYCDBHW7Q"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-NTYCDBHW7Q');
+    </script>
     <%- partial('./google_analytics.ejs') %>
     <%- partial('./umami_analytics.ejs') %>
     <!-- styles -->

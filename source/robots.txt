@@ -1,0 +1,36 @@
+# https://muneakira6.github.io/
+# Crawling is open to everyone, AI crawlers included.
+#
+# The AI bots below are listed explicitly even though "User-agent: *" already
+# allows them, so the intent is on the record if the policy is ever narrowed.
+# Note: a bot that matches its own group ignores the "*" group entirely.
+
+User-agent: *
+Allow: /
+
+# --- AI: model training ---
+# Content here may be used to train models.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# Google-Extended covers Gemini training *and* specified grounding.
+# It is not a Google Search ranking or inclusion control.
+User-agent: Google-Extended
+Allow: /
+
+# --- AI: search / retrieval (the surfaces that cite and link) ---
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://muneakira6.github.io/sitemap.xml

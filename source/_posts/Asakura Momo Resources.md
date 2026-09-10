@@ -1,6 +1,7 @@
 ---
 title: 麻倉もも スキャン/ラジオ/配信/BDMV 永久保存版<br>Asakura Momo Resources
 date: 2026-01-30 01:23:56
+updated: 2026-02-06 00:10:15
 description: 麻倉もも（あさくらもも）の関連リソースまとめ。ラジオ、配信アーカイブ、写真集、雑誌のスキャン情報などを網羅した永久保存版。TrySail、マギアレコードなどの情報も含む。
 keywords: 麻倉もも, Asakura Momo, もちょ, TrySail, 声優, ラジオ, 配信, 画像, 写真集, スキャン, データベース
 tags:
@@ -162,9 +163,9 @@ categories:
 
 SEO対策でももちゃんの画像を投げます↓
 
-![Asakura Momo 1](https://imgur.com/QUKfm2h.jpg)
-![Asakura Momo 2](https://imgur.com/Ok3Jft5.jpg)
-![Asakura Momo 3](https://imgur.com/XsL5NPT.jpg)
+![Asakura Momo 1](https://i.imgur.com/QUKfm2h.jpg)
+![Asakura Momo 2](https://i.imgur.com/Ok3Jft5.jpg)
+![Asakura Momo 3](https://i.imgur.com/XsL5NPT.jpg)
 
 <script type="application/ld+json">
 {
@@ -172,9 +173,9 @@ SEO対策でももちゃんの画像を投げます↓
   "@type": "Article",
   "headline": "Asakura Momo Resources / 麻倉もも リソースまとめ",
   "image": [
-    "https://imgur.com/QUKfm2h.jpg",
-    "https://imgur.com/Ok3Jft5.jpg",
-    "https://imgur.com/XsL5NPT.jpg"
+    "https://i.imgur.com/QUKfm2h.jpg",
+    "https://i.imgur.com/Ok3Jft5.jpg",
+    "https://i.imgur.com/XsL5NPT.jpg"
   ],
   "datePublished": "2026-01-30T01:23:56+09:00",
   "author": {

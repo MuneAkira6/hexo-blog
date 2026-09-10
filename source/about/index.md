@@ -1,5 +1,6 @@
 ---
 title: about
+description: "Mune Akiraについて。推しを見るために日本へ転職してきたエンジニアです。声優・アニメ・ライブ遠征の記録と、フロントエンド開発のメモを書いています。"
 ---
 
 > 推しを見るために日本に転職してきた\*\*人です。
@@ -19,6 +20,6 @@ title: about
 - clumsy trick
 - もしかしてもしかする
 
-![](https://i.imgur.com/AqiOKn3.jpg)
+![ブログのアバター画像。青いベレー帽をかぶった金髪のキャラクター](https://i.imgur.com/AqiOKn3.jpg)
 
 <!-- <img src="https://i.imgur.com/AqiOKn3.jpg" width="50%"> -->

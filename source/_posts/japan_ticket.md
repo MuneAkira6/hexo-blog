@@ -1,6 +1,9 @@
 ---
 title: 日本演唱会票务
 date: 2024-04-10 01:23:56
+updated: 2024-12-04 00:40:31
+description: "日本演唱会票务入门：抽选的轮次与规则，以及 eplus、ローチケ、チケットぴあ 三大平台各自的操作难点与注意事项。"
+lang: zh-CN
 tags:
   - Pseudo-tech
 categories:

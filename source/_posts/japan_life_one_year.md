@@ -1,6 +1,9 @@
 ---
 title: 日本求生指南（一年后）
 date: 2025-11-19 01:23:56
+updated: 2025-12-29 18:34:54
+description: "来日一年、转职一个月后的生活笔记：F Liner 五社直通与東急世田谷線等铁路见闻，以及煤炉、乐天金卡、三井金卡的实际使用心得。"
+lang: zh-CN
 tags:
   - Pseudo-tech
 categories:
@@ -243,7 +246,7 @@ categories:
 2. 手动填写信息。需要填写3处：お届け先、ご依頼主、品名/個目。（**大力写！**）
 3. 拿着伝票和包裹去柜台，接下来就是看着店员一通操作即可。
 
-![](https://www.suruga-ya.jp/man/kaitori/haitatu/sample324.jpg)
+![ゆうパケットの伝票](https://www.suruga-ya.jp/man/kaitori/haitatu/sample324.jpg)
 
 ## 随想
 

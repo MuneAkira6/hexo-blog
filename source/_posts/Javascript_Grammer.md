@@ -1,6 +1,9 @@
 ---
 title: 语法拾贝 (JavaScript)
 date: 2023-12-04 00:23:56
+updated: 2024-12-04 00:40:31
+description: "JavaScript 与 TypeScript 语法笔记：解构改名、数组去重与扁平化、空值合并与逻辑或的区别，以及 void、非空断言、keyof 等常用写法。"
+lang: zh-CN
 tags:
   - Grammer
 categories:

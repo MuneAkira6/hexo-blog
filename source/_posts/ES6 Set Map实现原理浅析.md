@@ -2,6 +2,9 @@
 title: ES6 Set Map实现原理浅析
 
 date: 2022-8-18 01:23:56
+updated: 2025-08-26 15:21:51
+description: "从哈希表出发浅析 ES6 中 Set 与 Map 的底层实现：数组为何无法高效去重、哈希冲突如何解决，以及 Object 在不同规模下的存储结构差异。"
+lang: zh-CN
 tags:
   - Pseudo-tech
 categories:

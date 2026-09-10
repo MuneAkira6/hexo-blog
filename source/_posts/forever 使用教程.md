@@ -1,6 +1,9 @@
 ---
 title: forever 使用教程
 date: 2023-4-12 01:23:56
+updated: 2025-08-26 15:29:52
+description: "forever 使用教程：这个 Node.js 守护进程工具的安装、启动与停止、重启操作、config 配置文件写法，以及与 npm start 搭配使用的方式。"
+lang: zh-CN
 tags:
   - Pseudo-tech
 categories:

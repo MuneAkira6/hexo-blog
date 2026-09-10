@@ -1,6 +1,8 @@
 ---
 title: 蓮愛を語る
 date: 2023-12-20 00:23:56
+updated: 2024-12-04 00:40:31
+description: "蓮ノ空女学院スクールアイドルクラブを語る。花帆と梢をはじめとするメンバー間の関係性を、ストーリーと楽曲の両面から読み解いた感想。"
 tags:
   - 蓮ノ空スクールアイドルクラブ
   - ラブライブ！
@@ -83,7 +85,7 @@ categories:
 
 好夫婦撮合另一對好夫婦
 
-![](https://imgur.com/b0UtBCr.jpg)
+![蓮ノ空スクールアイドルクラブの場面カット](https://i.imgur.com/b0UtBCr.jpg)
 ￼
 電波子来た！最後のこの二人の物語はどうなんだろ。
 
@@ -112,7 +114,7 @@ categories:
 勧誘！
 なんか性格色々わかって面白くなってきた
 ￼
-![](https://imgur.com/Wb5Y2PY.jpg)
+![蓮ノ空スクールアイドルクラブの場面カット](https://i.imgur.com/Wb5Y2PY.jpg)
 （もう呆れた😑）
 
 ### 10
@@ -121,7 +123,7 @@ categories:
 だんだん面白くなってきたわね
 
 Y！
-![](https://imgur.com/ExREgqR.jpg)
+![蓮ノ空スクールアイドルクラブの場面カット](https://i.imgur.com/ExREgqR.jpg)
 ￼
 
 こっちもなかなかの重症ね笑。幼馴染だからこその重い絆みたいな。キャラ性がちゃんと出て進行も順調で見やすいし楽しい。
@@ -176,11 +178,11 @@ open day!
 人物関係性もう上手ね、ネタになるくらい
 驚詫：
 
-![](https://imgur.com/ZZQmEU0.jpg)
+![蓮ノ空スクールアイドルクラブの場面カット](https://i.imgur.com/ZZQmEU0.jpg)
 ￼
 你兩人怎麼天天互相diss啊笑
 
-![](https://imgur.com/YTFeN9G.jpg)
+![蓮ノ空スクールアイドルクラブの場面カット](https://i.imgur.com/YTFeN9G.jpg)
 
 ### 15
 
@@ -190,11 +192,11 @@ open day!
 モバイルバテリーっていう重度に感服だわ
 お前定番やな
 
-![](https://imgur.com/7nueq3B.jpg)
+![蓮ノ空スクールアイドルクラブの場面カット](https://i.imgur.com/7nueq3B.jpg)
 
 BBA！
 
-![](https://imgur.com/xAxceUi.jpg)
+![蓮ノ空スクールアイドルクラブの場面カット](https://i.imgur.com/xAxceUi.jpg)
 ￼
 
 ## V 配信
@@ -588,7 +590,7 @@ MyGOこれやったら俺昇天しそう。蓮やっぱ認知厨大歓喜やん
 
 3 vlog編（？）
 vlogだんだん飽きたなあっと思ったら尾行でワロタ。節目效果拉滿。台本あるかどうかわからんかこういうのってもっとみたい！
-![](https://imgur.com/oqdodUx.jpg)
+![蓮ノ空スクールアイドルクラブ 金沢旅の配信より](https://i.imgur.com/oqdodUx.jpg)
 どSこなち〜
 
 ### ＃10.5 金沢旅伝統編
@@ -833,7 +835,7 @@ ENDING挨拶
 のん：練習50％本場500％（嘘やんw　でも進歩見えてよかった）笑顔になれるでしょうか
 
 鬼先輩草わかりますね
-![](https://imgur.com/ORl2w66.jpg)
+![蓮ノ空スクールアイドルクラブ 福岡公演Day2](https://i.imgur.com/ORl2w66.jpg)
 
 二日間の進歩すごく感じた。謳歌、眩耀もう上手く伸びれた。拍手。一歩一歩の前進を体感するのは嬉しい気持ち一杯です。見守り気分。
 

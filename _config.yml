@@ -5,7 +5,12 @@
 # Site
 title: Henceforth 🌱　🍑　🐸
 description: I wrote these things in my dreams.
+keywords: 日本生活, 日本転職, 在日中国人, 聖地巡礼, 声優, 麻倉もも, TrySail, MyGO!!!!!, アニメ, ライブ遠征, 学マス, JavaScript, React, フロントエンド, 技術ブログ
 author: Mune Akira
+# Verified identity equivalents for the author entity (JSON-LD sameAs).
+# Only add profiles that provably belong to the same person.
+same_as:
+  - https://github.com/MuneAkira6
 language: ja
 timezone: Japan # Japan
 
@@ -15,7 +20,7 @@ url: https://muneakira6.github.io
 permalink: :title.html
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
@@ -151,9 +156,3 @@ feed:
   order_by: -date
   autodiscovery: true
 
-# Robots.txt
-robotstxt:
-  useragent: "*"
-  allow:
-    - /
-  sitemap: https://muneakira6.github.io/sitemap.xml

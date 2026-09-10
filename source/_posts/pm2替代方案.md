@@ -1,6 +1,9 @@
 ---
 title: pm2替代方案
 date: 2022-12-13 02:23:56
+updated: 2025-08-26 15:29:52
+description: "pm2 的替代方案整理：forever 等现成库的取舍、阿里 egg.js 自研的 egg-cluster 多进程模型移植思路，以及直接使用 Linux 系统命令的做法。"
+lang: zh-CN
 tags:
   - Pseudo-tech
 categories:
