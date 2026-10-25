@@ -65,7 +65,13 @@ function describe (page, config) {
     }
     if (body) return truncate(body, isCJK(body) ? 110 : 160);
 
-    return String(config.description || '').trim();
+    return siteSummary(config);
+}
+
+// `description` is the poetic tagline shown on the home page. It says nothing
+// about what the site covers, so search and AI systems get `site_summary`.
+function siteSummary (config) {
+    return String(config.site_summary || config.description || '').trim();
 }
 
 function keywordsOf (page, config) {
@@ -165,50 +171,84 @@ hexo.extend.helper.register('seo_image', function (page) {
     return /^https?:\/\//.test(img) ? img : this.full_url_for(img);
 });
 
+// Posts are written in several languages. List them all (site default first,
+// then by post count) so the site entity does not claim to be Japanese-only.
+function siteLanguages (site, config) {
+    var counts = {};
+    var posts = site && site.posts ? site.posts.toArray() : [];
+    posts.forEach(function (p) {
+        var lang = p.lang || config.language;
+        counts[lang] = (counts[lang] || 0) + 1;
+    });
+    var langs = Object.keys(counts).sort(function (a, b) {
+        if (a === config.language) return -1;
+        if (b === config.language) return 1;
+        return counts[b] - counts[a];
+    });
+    if (langs.length <= 1) return config.language;
+    return langs;
+}
+
 hexo.extend.helper.register('seo_jsonld', function (page) {
     var config = this.config;
     var self = this;
     var siteUrl = config.url.replace(/\/$/, '');
-    var authorId = siteUrl + '/about/#person';
+    var aboutUrl = siteUrl + '/about/';
+    var authorId = aboutUrl + '#person';
     var siteId = siteUrl + '/#website';
 
+    // Profile facts live in _config.yml (author_profile) and must match what
+    // the about page visibly says.
+    var profile = config.author_profile || {};
     var person = {
         '@type': 'Person',
         '@id': authorId,
         name: config.author,
-        url: siteUrl + '/about/'
+        url: aboutUrl
     };
+    if (profile.description) person.description = String(profile.description).trim();
+    if (profile.image) {
+        var avatar = normalizeImgur(String(profile.image));
+        person.image = /^https?:\/\//.test(avatar) ? avatar : this.full_url_for(avatar);
+    }
+    if (profile.knows_about && profile.knows_about.length) person.knowsAbout = profile.knows_about;
+    if (profile.knows_language && profile.knows_language.length) person.knowsLanguage = profile.knows_language;
     // sameAs must only list verified identity equivalents, never loose associations.
     if (config.same_as && config.same_as.length) person.sameAs = config.same_as;
 
-    // Google's Article guidance expects publisher to be an Organization, so the
-    // site is modelled as one even though a single person writes it.
-    var publisherId = siteUrl + '/#publisher';
+    // A one-person blog: the author is also the publisher. Modelling the site
+    // as an Organization would invent an entity that does not exist, and
+    // Google's Article guidance does not ask for a publisher at all.
     var altName = plainName(config.title);
-    var logo = this.theme.logo && this.theme.logo.url ? this.full_url_for(this.theme.logo.url) : '';
-    var publisher = {
-        '@type': 'Organization',
-        '@id': publisherId,
-        name: config.title,
-        alternateName: altName,
-        url: siteUrl + '/',
-        founder: { '@id': authorId }
-    };
-    if (logo) publisher.logo = { '@type': 'ImageObject', url: logo };
-
     var website = {
         '@type': 'WebSite',
         '@id': siteId,
         url: siteUrl + '/',
         name: config.title,
         alternateName: altName,
-        description: config.description,
-        inLanguage: config.language,
+        description: siteSummary(config),
+        inLanguage: siteLanguages(this.site, config),
         author: { '@id': authorId },
-        publisher: { '@id': publisherId }
+        publisher: { '@id': authorId }
     };
 
-    var graph = [website, publisher, person];
+    var graph = [website, person];
+
+    // The about page is the author's profile, so mark it as such and point
+    // it at the Person every post names as author.
+    if (this.is_page() && page.path && this.full_url_for(page.path) === aboutUrl) {
+        graph.push({
+            '@type': 'ProfilePage',
+            '@id': aboutUrl + '#profilepage',
+            url: aboutUrl,
+            name: stripHtml(page.title || ''),
+            inLanguage: page.lang || config.language,
+            dateCreated: page.date ? page.date.toISOString() : undefined,
+            dateModified: page.updated ? page.updated.toISOString() : undefined,
+            isPartOf: { '@id': siteId },
+            mainEntity: { '@id': authorId }
+        });
+    }
 
     if (this.is_post()) {
         var url = this.full_url_for(page.path);
@@ -227,7 +267,7 @@ hexo.extend.helper.register('seo_jsonld', function (page) {
             datePublished: page.date ? page.date.toISOString() : undefined,
             dateModified: (page.updated || page.date) ? (page.updated || page.date).toISOString() : undefined,
             author: { '@id': authorId },
-            publisher: { '@id': publisherId },
+            publisher: { '@id': authorId },
             isPartOf: { '@id': siteId }
         };
         if (image) posting.image = image;

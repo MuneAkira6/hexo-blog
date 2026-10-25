@@ -11,3 +11,5 @@ Project.json
 notes-export/
 # 圧縮前の原図（退避用・非公開）
 _originals/
+# IndexNow submission state (scripts/indexnow.js)
+.indexnow-state.json

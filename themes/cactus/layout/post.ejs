@@ -1,9 +1,14 @@
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post h-entry">
   <header>
     <%- partial('_partial/post/title', { post: page, index: false, class_name: 'posttitle' }) %>
     <div class="meta">
-      <span class="author p-author h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span class="p-name" itemprop="name"><% if (page.author) { %><%- page.author %><% } else { %><%- config.author %><% } %></span>
+      <span class="author p-author h-card">
+        <% if (page.author) { %>
+        <span class="p-name"><%- page.author %></span>
+        <% } else { %>
+        <%# The byline links to the profile page the JSON-LD author points at. %>
+        <a class="p-name u-url" href="<%- url_for(theme.nav.about || '/about/') %>" rel="author"><%- config.author %></a>
+        <% } %>
       </span>
       <%- partial('_partial/post/date', { post: page, class_name: 'postdate' }) %>
       <%- partial('_partial/post/category') %>
@@ -11,7 +16,7 @@
     </div>
   </header>
   <%- partial('_partial/post/gallery') %>
-  <div class="content e-content" itemprop="articleBody">
+  <div class="content e-content">
     <%- page.content %>
   </div>
 </article>

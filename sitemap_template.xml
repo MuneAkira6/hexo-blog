@@ -6,17 +6,19 @@
     <priority>0.6</priority>
   </url> {% endfor %} <url>
     <loc>{{ config.url | uriencode }}</loc>
-    <lastmod>{{ sNow | formatDate }}</lastmod>
+    {# Listing pages change only when one of their posts does. Stamping them with the
+     build time made every lastmod look fresh, which teaches crawlers to ignore it. #}
+    {% set latest = posts | selectattr('published') | first %}{% if latest %}<lastmod>{{ latest.updated | formatDate }}</lastmod>{% endif %}
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url> {% for tag in tags %} <url>
     <loc>{{ tag.permalink | uriencode }}</loc>
-    <lastmod>{{ sNow | formatDate }}</lastmod>
+    {% set latest = tag.posts.sort('-updated').first() %}{% if latest %}<lastmod>{{ latest.updated | formatDate }}</lastmod>{% endif %}
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url> {% endfor %} {% for cat in categories %} <url>
     <loc>{{ cat.permalink | uriencode }}</loc>
-    <lastmod>{{ sNow | formatDate }}</lastmod>
+    {% set latest = cat.posts.sort('-updated').first() %}{% if latest %}<lastmod>{{ latest.updated | formatDate }}</lastmod>{% endif %}
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url> {% endfor %} </urlset>

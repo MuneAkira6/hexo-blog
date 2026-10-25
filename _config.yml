@@ -11,6 +11,26 @@ author: Mune Akira
 # Only add profiles that provably belong to the same person.
 same_as:
   - https://github.com/MuneAkira6
+# Plain statement of what the site covers, for the home page meta description
+# and the WebSite JSON-LD. `description` above stays as the visible tagline.
+site_summary: 東京で働くエンジニア Mune Akira の個人ブログ。在日外国人としての転職・銀行口座・クレジットカードなどの日本生活記録、麻倉もも・MyGO!!!!! の聖地巡礼とライブ遠征記、JavaScript / React の技術メモを日本語・中文・English で書いています。
+# Author facts for the Person JSON-LD. Keep them in line with what
+# source/about/index.md visibly says.
+author_profile:
+  description: 推しを見るために日本へ転職してきたエンジニア。東京で働きながら、日本生活・聖地巡礼・ライブ遠征の記録とフロントエンド開発のメモを書いている。
+  image: https://i.imgur.com/AqiOKn3.jpg
+  knows_language:
+    - ja
+    - zh-CN
+    - en
+  knows_about:
+    - 在日外国人の日本生活
+    - 日本での転職
+    - 聖地巡礼
+    - 麻倉もも
+    - MyGO!!!!!
+    - JavaScript
+    - React
 language: ja
 timezone: Japan # Japan
 
@@ -110,6 +130,12 @@ deploy:
     branch: main # 分支名称。默认填写 master 如果您使用的是 GitHub ，程序会尝试自动检测。
     message: # 提交信息可以自定义，不填的则默认为提交时间
   - type: cjh_google_url_submitter
+  - type: indexnow # scripts/indexnow.js; must stay after the git deployer
+
+# IndexNow (Bing, Yandex, Naver, Seznam...). The key is public by design:
+# source/<key>.txt is what proves we control the host.
+indexnow:
+  key: 0b29a48e16870dbbd84693ecf35ae940
 
 tags_overview: true
 

@@ -1,6 +1,6 @@
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post">
   <%- partial('_partial/post/gallery') %>
-  <div class="content" itemprop="articleBody">
+  <div class="content">
       <% if (page.search || page.type === "search") { %>
         <%- partial('_partial/search') %>
       <% } else if (page.type === "tags") { %>
